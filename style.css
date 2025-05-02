@@ -1,0 +1,39 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #e0f7fa;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #00796b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background: #004d40;
+  padding: 10px;
+  text-align: center;
+}
+nav button {
+  margin: 0 10px;
+  padding: 10px 15px;
+  background: #26a69a;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+nav button:hover {
+  background: #004d40;
+}
+.content {
+  padding: 20px;
+}
+.animal {
+  display: none;
+}
+.animal.active {
+  display: block;
+}

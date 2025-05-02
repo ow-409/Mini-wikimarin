@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Wiki Animaux Marins</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Wiki des Animaux Marins</h1>
+  </header>
+  <nav>
+    <button onclick="showAnimal('dauphin')">Dauphin</button>
+    <button onclick="showAnimal('requin')">Requin</button>
+    <button onclick="showAnimal('pieuvre')">Pieuvre</button>
+  </nav>
+  <div class="content">
+    <div id="dauphin" class="animal active">
+      <h2>Dauphin</h2>
+      <p>Les dauphins sont des mammifères marins très intelligents. Ils vivent en groupes et utilisent l'écholocation pour se repérer.</p>
+    </div>
+    <div id="requin" class="animal">
+      <h2>Requin</h2>
+      <p>Les requins sont des prédateurs puissants qui existent depuis des centaines de millions d'années. Ils ont un sens de l'odorat très développé.</p>
+    </div>
+    <div id="pieuvre" class="animal">
+      <h2>Pieuvre</h2>
+      <p>Les pieuvres sont des céphalopodes intelligents capables de changer de couleur et de texture pour se camoufler.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
